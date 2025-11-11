@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  padding-top: 30px; /* Height of the title bar */
+  flex-grow: 1;
+  /* Add other styles for your main content area here */
+}

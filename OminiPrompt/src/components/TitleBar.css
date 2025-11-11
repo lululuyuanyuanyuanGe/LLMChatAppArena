@@ -1,0 +1,39 @@
+/* src/components/TitleBar.css */
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  background-color: #202020;
+  color: white;
+  -webkit-app-region: drag;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.title {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.window-controls {
+  -webkit-app-region: no-drag;
+}
+
+.window-controls button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  width: 45px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.window-controls button:hover {
+  background-color: #404040;
+}
